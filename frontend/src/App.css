@@ -1,0 +1,113 @@
+body {
+  background-color: white;
+  margin: 0
+  
+}
+main {
+  margin: 0;
+  background-color: #BBE8BD;
+  padding: 5px;
+  width: 100%
+}
+header {
+  background-color: #16413A;
+  text-align: center;
+  padding: 5px;
+  width: 100%
+}
+footer {
+  background-color: #BBE8BD;
+  text-align: right;
+  padding: 5px;
+  width: 100%;
+  height: 500px;
+}
+h1 {
+  font-family: sans-serif;
+  color:white;
+}
+b {
+color: white;
+}
+
+
+textarea {
+  width: 80%;
+  height: 95%;
+  /*white-space: nowrap;*/
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #0B1221;
+    color:white;
+    border-width: medium;
+    border-color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /*align-content:center; 
+    overflow:auto;*/
+}
+
+.codearea { 
+    /*margin-left: auto;
+    margin-right: auto;*/
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    /*background-color: #686C6F;*/
+}
+
+.laguageSelector {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+  justify-items:center;
+}
+#inputarea {
+  /*background-color: black;*/
+  /*background-image: url("images/binary.jpg");*/
+  /*width: 40%;*/
+  height: 500px;
+  float: left;
+  margin: 10px;
+}
+
+#outputarea {
+  /*background-color: #99ebff;*/
+  /*width: 40%;*/
+  height: 500px;
+  float: right;
+  margin: 10px;
+}
+
+#foottext {
+  color: black;
+}
+
+#convertarea {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#convert {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  border-width: thick;
+  padding: 10px;
+  /*border-color: white;*/
+}
+
+#lang_b {
+  color: black;
+}
+
+#buttonText {
+  color: black;
+}
